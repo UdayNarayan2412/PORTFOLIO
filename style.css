@@ -4,12 +4,18 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{position: relative; overflow-x: hidden; }
 
 :root {
     --primary: #34353A;
     --secondary: #FFC86B;
     --textColor: #fff;
 }
+
 
 body {
     background-color: var(--primary);
