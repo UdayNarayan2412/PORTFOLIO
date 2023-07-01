@@ -1,63 +1,177 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <title>Portfolio
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
-       <header>
-        
-        <nav>
-            <div class="download-cv">
-                <button>
-                    Download
-                </button>    
-            </div>
-                
-            
-            <div class="nav-button">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <script src="https://kit.fontawesome.com/6140d5223c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/favicon.ico" alt="logo">
+                </div>
                 <ul class="menu">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>    
+                    <li><a href="#about_section">About</a></li>
+                    <li><a href="#portfolio_section">Portfolio</a></li>
+                    <li><a href="#contact_section">Contact</a></li>
                 </ul>
-            </div>
-
-            <div class="home-icon">
-                <img src="images/favicon.ico" class="icon">
-            </div>
-           
-        <!-- </nav>
-       </header> 
-       <main>
-        <section id="main-page">
-            <div>
-                    <h1>bio</h1>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>Profile</h2>
-            </div>
-        </section>
-           
-        <section>
-            <div>
-                <h1>Contact</h1>
-            </div>
-        </section>
-       </main>
-
-       <footer>
-        <div>
-            <h1>Terms And Condition</h1>
+                <div class="download">
+                    <div class="download-button">
+                        <a href="images/doc.pdf" download="uday.pdf">
+                            <button>Download</button>
+                          </a>
+                    </div>
+                </div>
+            </nav>
+            <section class="hero_section">
+                <div class="row" id="full_row">
+                    <div class="col_hero_info">
+                        <h1>I'M <span class="animate"></span></h1>
+                        <p>Web Developer|Video Editor|Fronted Developer</p>
+                        <a href="form/form.html"><button class="btn">Contact Me</button></a>
+                    </div>
+                    <div class="col_hero_img">
+                        <div class="social_icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-discord"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-       </footer> -->
+        
+    </header>
+    <main>
+        
+        <section id="about_section" class="container">
+            <div class="about_info">
+                <h1>About</h1>
+                <p>Throughout my career, I have had the pleasure of collaborating with diverse clients and teams, honing my ability to communicate ideas effectively and work harmoniously in fast-paced environments. I am known for my strong problem-solving skills, attention to detail, and dedication to meeting project deadlines.
+
+                    <span style="color:#ffc86b">If you're seeking a skilled and versatile professional for your web development, Python programming, or video editing needs</span>, I would love to connect. Let's bring your ideas to life and create remarkable digital experiences together.</p>
+            </div>
+        </section>
+
+        <section id="skill_section" class="container">
+            <h1>My Skills</h1>
+            <div class="skill_part_one">
+                <div class="skill_card">
+                    <img src="images/1.png">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill_card">
+                    <img src="images/8.png">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill_card">
+                    <img src="images/7.png">
+                    <h3>Html</h3>
+                </div>
+                
+            </div>
+            </div>
+        </section>
        
-    </body>
+        <section id="portfolio_section" class="container">
+            <h1>Portfolio</h1>
+            <div class="portfolio_all_card">
+                
+                <div class="portfolio_card">
+                    <img src="images/image.jpg" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>Portfolio Work</h2>
+                        <p>Check out my portfolio showcasing my HTML and CSS skills! With clean and modern designs, I demonstrate my ability to create visually appealing websites that engage users and deliver seamless user experiences. Explore my work now!</p>
+                        <a href="index.html" class="button" target="_blank">see more</a>
+                    </div>
+                </div>
+        </section>
+        
+        <section id="experience_section">
+            <div class="container">
+                <h1 class="exp_title">Experience</h1>
+                
+                <div class="experience">
+                    <div class="experience_info">
+                        <h1>2022</h1>
+                        <div class="experience_contents">
+                            <h2>Python Developer</h2>
+                            <div class="experience_content">
+                               
+                                <p>In the realm of Python programming, I am well-versed in leveraging the language's power and versatility to develop efficient and scalable solutions. From building custom applications to automating tasks, I bring innovation and problem-solving skills to every project. I constantly stay updated with the latest advancements in Python, ensuring that my work adheres to industry best practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience_info">
+                        <h1>2023</h1>
+                        <div class="experience_contents">
+                            <h2>Web Developer</h2>
+                            <div class="experience_content">
+                                
+                                <p>As a web developer, I possess expertise in crafting robust and user-friendly websites. From designing responsive layouts to implementing dynamic functionalities, I have a keen eye for detail and a deep understanding of modern web technologies. Whether it's creating intuitive user interfaces or optimizing website performance, I take pride in delivering exceptional results that align with clients' goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <section class="contact" id="contact_section">
+                <div class="contact_title">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="contact_info">
+                    <div class="email">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>udaynarayan2412@gmail.com</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>7536808869</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Mathura,India</p>
+                </div>
+                <div class="footer_social_icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </section>
+        
+        <div class="footer">
+            <h1>&copy;Uday Narayan</h1>
+        </div>
+       
+
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed('.animate', {
+            strings: [
+                "Uday Narayan",
+            ],
+            typeSpeed: 500,
+            backSpeed: 80,
+            loop: true
+        });
+    </script>
+
+</body>
+
 </html>
